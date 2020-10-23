@@ -17,7 +17,7 @@ yleistys; nimittäin kuten jäljempänä havaitaan, merkintä \eqref{integraalim
 myös, kun $f$ on välillä $A=[a,b]$ määritelty (integroituva) funktio,
 $I(f,A,\mu)=\int_a^b f(x)\,dx$ ja $\mu$ on $\R$:n \kor{pituusmitta}.
 
-\subsection*{Jordanin pinta-alamitta}
+\subsection{Jordanin pinta-alamitta}
 \index{pinta-alamitta!a@tason|vahv}
 \index{Jordan-mitta!a@pinta-alamitta|vahv}
 
@@ -72,7 +72,7 @@ Tämä johtuu siitä, että (edellisen esimerkin mukaan) $A \cap B$ on nollamitt
 $\mu(A \cap B)=0$ (ks.\ Jordan-mitan määrittely jäljempänä ja
 Harj.teht.\,\ref{H-uint-1: väittämiä}c).
 
-\subsection*{Integraali yli rajoitetun joukon}
+\subsection{Integraali yli rajoitetun joukon}
 \index{Riemannin!a@integraali|vahv}
 \index{Riemann-integroituvuus!c@tasossa|vahv}
 
@@ -146,7 +146,7 @@ Molemmista määrittelytavoista nähdään, että $\int_T f_0\,d\mu$ ei riipu su
 valinnasta sikäli kuin $T \supset A$ (Harj.teht.\,\ref{H-uint-1: T:n valinta}). --- Tämä tulos
 ennakoitiin jo edellä, kun sovittiin: $\,\int_A f\,d\mu = \int_T f_0\,d\mu,\ T \supset A$.
 
-\subsection*{Lineaarisuus. Additiivisuus. Vertailuperiaate}
+\subsection{Lineaarisuus. Additiivisuus. Vertailuperiaate}
 
 Jos merkitään rajoitetun joukon A yli integroituvien funktioiden joukkoa symbolilla
 $\mathcal{R}_A$, niin seuraavat yleiset ominaisuudet ovat yhteisiä tasointegraaleille ja 
@@ -184,7 +184,7 @@ Näin ollen jos $T=[a_1,b_1]\times[a_2,b_2] \supset A \cup B$, niin lineaarisuud
    \qekv \int_{A \cup B} f\,d\mu = \int_A f\,d\mu + \int_B f\,d\mu.
 \]
 
-\subsection*{Rajoitetun joukon mitta}
+\subsection{Rajoitetun joukon mitta}
 
 Em.\ määritelmissä on integraalin riippuvuus mitasta varsin yksinkertainen, sillä määritelmissä
 tarvitaan vain suorakulmioiden $T_{kl}$ mittoja aksiooman A1 mukaisesti. Mutta kun integraali on
@@ -284,7 +284,7 @@ Jos $f$ on jatkuva suorakulmiossa $T=[a,b]\times[c,d]$ ja $A \subset T$ on mital
 $f$ on Riemann-integroituva yli $A$:n.
 \end{*Lause} 
 
-\subsection*{Siirto-, peilaus- ja kiertoinvarianssi}
+\subsection{Siirto-, peilaus- ja kiertoinvarianssi}
 \index{Jordan-mitta!a@pinta-alamitta|vahv}
 \index{siirtoinvarianssi (mitan)|vahv}
 \index{peilausinvarianssi (mitan)|vahv}
@@ -320,7 +320,7 @@ Jordanin pinta-alamitta on siirto-, peilaus- ja kiertoinvariantti, ts. geometris
 joukkojen mitat ovat samat.
 \end{Lause}
 
-\subsection*{Keskipistesääntö}
+\subsection{Keskipistesääntö}
 \index{keskipistesääntö|vahv}
 
 Kuten yhden muuttujan integraaleja, myös tasointegraaleja voi laskea numeerisesti suoraan 
@@ -349,11 +349,16 @@ Vastaavalla tavalla laskien saadaan $\int_A y\,d\mu = \tfrac{1}{2}(c+d)\mu(A)$. 
 \end{Exa}
 Esimerkissä saatiin jo yhdellä suorakulmiolla ($m=n=1,\ T_{11}=A$) tarkka tulos. Yleisemmin
 keskipistesääntö integroi suorakulmiossa tarkasti ensimmäisen asteen polynomin:
+\begin{samepage}
 \begin{multicols}{2}
 \begin{align*}
-f(x,y) &= a_0 + a_1 x + a_2 y \quad (a_0,a_1,a_2 \in \R) \\
+f(x,y) &= a_0 + a_1 x + a_2 y,\\
+& \quad (a_0,a_1,a_2 \in \R) \\
        &\impl \ \int_T f\, d\mu=f(x_0,y_0)\mu(T).
 \end{align*}
+\vfill\null
+\columnbreak
+
 \begin{figure}[H]
 \setlength{\unitlength}{1cm}
 \begin{center}
@@ -365,6 +370,8 @@ f(x,y) &= a_0 + a_1 x + a_2 y \quad (a_0,a_1,a_2 \in \R) \\
 \end{center}
 \end{figure}
 \end{multicols}
+\end{samepage}
+
 Tämän ominaisuuden ja kahden muuttujan Taylorin kaavan
 (Luku \ref{usean muuttujan taylorin polynomit}) perusteella keskipistesäännölle on johdettavissa 
 virhearvio samaan tapaan kuin yhdessä dimensiossa (Harj.teht.\,\ref{H-uint-1: kp-virhearvio}).
@@ -421,7 +428,7 @@ $A \cap T_{kl}$).
 \end{figure}
 \end{multicols}
 
-\subsection*{$\R$:n pituusmitta}
+\subsection{$\R$:n pituusmitta}
 \index{pituusmitta (Jordanin)|vahv}
 \index{Jordan-mitta!b@$\R$:n pituusmitta|vahv}
 \index{mitta, mitallisuus!a@Jordan-mitta|vahv}

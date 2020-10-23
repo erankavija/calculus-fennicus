@@ -125,7 +125,7 @@ ympäristössä, ts.\ $\exists \delta>0$ ja $C\in\R_+$ siten, että
 ehto on voimassa. Tällöin seuraa kolmioepäyhtälöstä, että väittämä on tosi, kun
 $C=\abs{A}+1$. \loppu
 
-\subsection*{Funktion approksimointi raja-arvolla}
+\subsection{Funktion approksimointi raja-arvolla}
 %\index{funktion approksimointi!a@raja-arvolla|vahv}
 
 Jos funktiosta tunnetaan raja-arvo $A = \lim_{x\kohti a} f(x)$, niin Lauseen 
@@ -149,7 +149,7 @@ $x \map 1-\cos x$ tapahtuu huomattava merkitsevien numeroiden kato, kun $\abs{x}
 \mbox{approksimaatio} on tässä tapauksessa myös hyvin tarkka: virhe on alle $10^{-18}$. \loppu
 \end{Exa}
 
-\subsection*{Raja-arvojen yhdistely}
+\subsection{Raja-arvojen yhdistely}
 \index{funktion raja-arvo!a@raja-arvojen yhdistely|vahv}
 
 Raja-arvojen laskemista helpottavat seuraavat lauseet, jotka ovat Lauseiden 
@@ -196,7 +196,7 @@ rationaalifunktio $f$ on jatkuva koko määrittelyjoukossaan, jolloin
 $\lim_{x\kohti a} f(x) = f(a)$, kun $a\in\DF_f$. \loppu
 \end{Exa}
 
-\subsection*{Raja-arvon laskeminen sijoituksella}
+\subsection{Raja-arvon laskeminen sijoituksella}
 \index{funktion raja-arvo!b@laskeminen sijoituksella|vahv}
 
 Raja-arvon $\,\lim_{x \kohti a} f(x)$ laskemista on usein mahdollista helpottaa tekemällä
@@ -260,7 +260,7 @@ Tässä
 Sikäli kuin muuttujaa ei vaihdeta, lasku supistuu vaiheiksi 3--4 ($F=f,\,t=x$), kuten
 Esimerkissä \ref{helppo raja-arvo} edellä.
 
-\subsection*{Funktion jatkaminen}
+\subsection{Funktion jatkaminen}
 \index{jatkaminen (funktion)|vahv}
 
 Jos $a\in\R$ ei ole funktion $f$ määrittelyjoukossa, mutta on olemassa (aito) raja-arvo
@@ -284,7 +284,7 @@ f(x) = \begin{cases} \,\dfrac{1-\cos x}{x^2}\,, &\text{kun}\ x \neq 0, \\[2mm]
 on jatkuva $\R$:ssä. Funktion arvo $0$:ssa on määrätty jatkamalla. \loppu
 \end{Exa}             
 
-\subsection*{Paloittainen jatkuvuus}
+\subsection{Paloittainen jatkuvuus}
 \index{jatkuvuus (yhden muuttujan)!f@paloittainen|vahv} \index{paloittainen!b@jatkuvuus|vahv}
 
 Funktion toispuoliset raja-arvot tulevat käyttöön erityisesti sellaisissa sovellustilanteissa,
@@ -371,7 +371,7 @@ tarkastellaan. Eri skaaloissa funktio $f$ voi näyttää hyvin erilaiselta. \lop
 \end{center}
 \end{figure}
 
-\subsection*{Raja-arvot $\displaystyle{\lim_{x\kohti\pm\infty}f(x)}$}
+\subsection{Raja-arvot $\displaystyle{\lim_{x\kohti\pm\infty}f(x)}$}
 \index{funktion raja-arvo|vahv} \index{raja-arvo!b@reaalifunktion|vahv}
 
 Raja-arvo $\lim_{x\kohti\infty} f(x)$ määritellään samoin kuin edellä, eli sijoittamalla
@@ -414,7 +414,7 @@ $\lim_nf(x_n)=\lim_ky_k=y$. Koska tämä pätee jokaiselle mainitut ehdot täytt
 $\seq{x_n}$, niin $\,\lim_{x\kohti\infty}f(x)=y$. Jos $f$ on vähenevä välillä $[a,\infty)$, niin
 päättely on vastaava. \loppu
 
-\subsection*{Asymptootit}
+\subsection{Asymptootit}
 \index{asymptootti|vahv}
 
 Sanotaan, että funktio $g(x)$ on funktion $f(x)$ \kor{asymptootti}, jos 
@@ -470,6 +470,8 @@ $\lim_{x \kohti 0^-} f(x^2+x^3)$.
 \item
 Määritä seuraavat raja-arvot, joko reaalilukuna tai muodossa $\pm\infty$, tai totea 
 vaihtoehtoisesti, ettei raja-arvoa ole. Vaihda tarvittaessa muuttujaa.
+\begingroup
+\allowdisplaybreaks
 \begin{align*}
 &\text{a)}\ \lim_{x \kohti 4} (x^2-4x+1) \qquad
  \text{b)}\ \lim_{x \kohti 3} \frac{x+3}{x+6} \qquad
@@ -499,7 +501,8 @@ vaihtoehtoisesti, ettei raja-arvoa ole. Vaihda tarvittaessa muuttujaa.
  \text{å)}\ \lim_{x\kohti\infty} \frac{x\sqrt{x+1}\,(1-\sqrt{2x+3})}{7-6x+4x^2} \\[1mm]
 &\text{ä)}\ \lim_{x\kohti\infty} \left(\sqrt{x^2+9x}-\sqrt{x^2-5x}\right) \qquad
  \text{ö)}\ \lim_{x \kohti -\infty} \left(\sqrt{x^2-4x}-\sqrt{x^2+10x}\right)
-\end{align*}
+\end{align*}%
+\endgroup
 
 \item \label{H-V-2: väittämiä}
 Todista Määritelmän \ref{funktion raja-arvon määritelmä} ja lukujonojen teorian

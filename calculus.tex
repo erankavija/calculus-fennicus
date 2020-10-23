@@ -16,6 +16,7 @@
 \usepackage{import}
 \usepackage{rotating}
 \usepackage{makeidx}
+
 % Riittävä sidontamarginaali. Huom! Textwidth määriteltävä täällä,
 % jottei sotke geometry-paketin toimintaa.
 \usepackage[hcentering, textwidth=35em,bindingoffset=23mm]{geometry}
@@ -24,6 +25,11 @@
 \setlength{\parskip}{\medskipamount}
 
 \usepackage{jpheader}
+
+% Hyperlinkit
+\usepackage[colorlinks=true,linkcolor=blue,breaklinks=true]{hyperref}
+\setcounter{secnumdepth}{1}
+\setcounter{tocdepth}{2}
 
 \renewcommand{\thechapter}{\Roman{chapter}}
 \renewcommand{\thefootnote}{\fnsymbol{footnote}}

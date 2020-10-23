@@ -180,7 +180,7 @@ välillä $(-\infty,\infty)$. Jakamalla integraali kahteen osaan väleille $(-\i
 $[0,\infty)$ nähdään, että se hajaantuu. \loppu
 \end{Exa} 
 
-\subsection*{Epäoleellisten integraalien vertailu}
+\subsection{Epäoleellisten integraalien vertailu}
 
 Silloin kun epäoleellisen integraalin suppenevuutta ei voida suoraan tutkia integraalifunktion
 avulla, tai se on hankalaa, voidaan suppenevuus yleensä selvittää vertaamalla integraalia 
@@ -251,7 +251,7 @@ riittää: Integraali hajaantuu, koska $\,e^{-x}/x \ge e^{-1}x^{-1} > 0,\ x\in(0
 $\,\int_0^1 x^{-1}\,dx$ hajaantuu. \loppu
 \end{Exa}
 
-\subsection*{Cauchyn kriteeri integraaleille}
+\subsection{Cauchyn kriteeri integraaleille}
 
 Seuraava yleinen suppenemiskriteeri toimii kaikille epäoleellisille integraaleille muotoa
 $\,\int_a^\infty f(x)\,dx$, vrt.\ vastaava Cauchyn kriteeri sarjoille
@@ -336,7 +336,7 @@ avulla arvioiden todetaan, että jos $\,\pi/2<M_1<M_2$, niin
 joten Cauchyn kriteerin perusteella myös tämä osa integraalista suppenee. Siis vastaus on:
 Suppenee! \loppu
 
-\subsection*{Integraalit ja sarjat}
+\subsection{Integraalit ja sarjat}
 \index{sarjaoppi (klassinen)|vahv}
 
 Edellä on jo nähty, että integraalien $\int_a^\infty f(x)\,dx$ ja sarjojen suppenemisteoriat
@@ -445,14 +445,14 @@ approksimaatioiden (a) ja (b) keskiarvo eli
 Tämän virhe on suuruusluokkaa $\mathcal{O}(n^{-1-\alpha})$
 (ks.\ Harj.teht.\,\ref{numeerinen integrointi}:\ref{H-int-9: hidas sarja}).
 
-\pagebreak
-
 \Harj
 \begin{enumerate}
 
 \item
 Laske tai osoita hajaantuvaksi kohdissa a)--o). Kohdissa p)--ö) määritä $k$:n arvot ($k\in\R$),
 joilla integraali suppenee.
+\begingroup
+\allowdisplaybreaks
 \begin{align*}
 &\text{a)}\ \ \int_0^6 \frac{2x}{x^2-4}\,dx \qquad
  \text{b)}\ \ \int_0^6 \frac{2x}{\abs{x^2-4}^{2/3}}\,dx \qquad
@@ -482,7 +482,8 @@ joilla integraali suppenee.
  \text{å)}\ \ \int_0^\infty \abs{x^2-1}^k e^{-x}\,dx \qquad
  \text{ä)}\ \ \int_{-\infty}^\infty \frac{\ln\abs{x}}{\abs{x^3+1}^k}\,dx \\
 &\text{ö)}\ \ \int_{-\infty}^\infty\left[\sqrt[4]{|\sin x\cos x|}\ e^{|x|}\,(\ln|x|)^8\right]^kdx
-\end{align*}
+\end{align*}%
+\endgroup
 
 \item
 Johda palautuskaava seuraaville integraaleille, kun $n\in\N\cup\{0\}$.

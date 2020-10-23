@@ -157,6 +157,8 @@ I=\int_A xy^2\,dxdy.
 \end{multicols}
 \end{Exa}
 \ratk
+\begingroup
+\allowdisplaybreaks
 \begin{align*}
 I &= \int_0^1\left[\int_0^{1-x} xy^2\,dy\right] dx \\
   &= \int_0^1 \left[\sijoitus{y=0}{y=1-x} \frac{1}{3}xy^3\right] dx \\
@@ -165,7 +167,8 @@ I &= \int_0^1\left[\int_0^{1-x} xy^2\,dy\right] dx \\
      \qquad \text{(osittaisintegrointi)} \\
   &= \int_0^1 \frac{1}{12}(1-x)^4\,dx = \sijoitus{0}{1} -\frac{1}{60}(1-x)^5
    = \underline{\underline{\frac{1}{60}}}\,. \loppu
-\end{align*}
+\end{align*}%
+\endgroup
 \begin{Exa} Laske $\mu(A)$, kun $A=\text{$R$-säteinen kiekko}$.
 \end{Exa}
 \ratk Kaavan \eqref{tasopalautus-x} mukaan
@@ -199,7 +202,7 @@ Luku \ref{pinta-ala ja kaarenpituus}.)
 \end{center}
 \end{figure}
 
-\subsection*{Epäoleelliset tasointegraalit}
+\subsection{Epäoleelliset tasointegraalit}
 \index{tasointegraali!a@epäoleellinen|vahv}
 \index{epzyoi@epäoleellinen integraali|vahv}
 
@@ -331,7 +334,7 @@ Todettakoon lopuksi, että em.\ määritelmänkään nojalla iteraatiokaavat
 aivan yleispätevästi, mutta poikkeukset näistä (pää)säännöistä ovat melko eksoottisia,
 ks.\ Harj.teht.\,\ref{Riemann vs Fubini}.
 
-\subsection*{Fubinin lause}
+\subsection{Fubinin lause}
 
 Tarkoituksena on perustella tasointegraalin iteraatiokaava \eqref{tasopalautus-x}. Tässä riittää
 rajoittua erikoistapaukseen, jossa $A$ on suorakulmio, eli laskukaavaan
